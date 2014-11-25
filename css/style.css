@@ -1,3 +1,10 @@
+* {
+  outline: none;
+}
+
+/*:hover, :active, :focus {
+    box-shadow: none !important;    
+}*/
 html, body {
   margin: 0;
   padding: 0;
@@ -217,8 +224,63 @@ body {
 /*
 ** section-5
 */
+.section-5 {
+  background: #EAEAEA;
+  padding: 25px 0 50px;
+}
+.section-5_item {
+  padding: 5px 5px 0;
+}
+.section-5_item__icon {
+  font-size: 25px;
+  margin-right: 10px;
+}
+.section-5_item__email {
+  position: relative;
+  top: -5px;
+  font-size: 25px;
+  display: inline-block;
+}
+.section-5_form {
+  margin-top: 25px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 30px 10px 10px;
+}
+.section-5_form .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+.section-5_form .btn {
+  width: 100%;
+}
+.section-5_form .form-control:hover, .section-5_form .form-control:active, .section-5_form .form-control:focus {
+  border-color: #ccc !important;
+}
+
 /*
 ** footer
 */
+.footer {
+  padding: 25px 0;
+}
+.footer_copy {
+  color: #000;
+  font-size: 14px;
+  line-height: 14px;
+}
+.footer_develop {
+  margin-top: 5px;
+  font-size: 10px;
+  line-height: 12px;
+}
+.footer_develop__link {
+  font-size: 8px;
+  color: #000 !important;
+  text-decoration: underline;
+}
+.footer_develop__link:hover, .footer_develop__link:hover, .footer_develop__link:hover {
+  color: #000;
+}
 
 /*# sourceMappingURL=style.css.map */
