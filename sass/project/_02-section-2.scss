@@ -1,0 +1,35 @@
+/*
+** section-2
+*/
+
+.section-2 {
+    margin: 25px 0 0;
+    &_title {
+        height: 50px;
+        line-height: 50px;
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    &_item {
+        margin-bottom: 20px;
+        &__title {
+            font-size: 22px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+        &__title._right {
+            text-align: right;
+        }
+        &__img {
+            margin:0 10px 10px 0;
+            float: left;
+        }
+        &__img._right {
+            float: right;
+            margin: 0 0 10px 10px; 
+        }
+        &__text {            
+        }
+    }
+}
