@@ -1,5 +1,5 @@
 * {
-  outline: none;
+  outline: none !important;
 }
 
 /*:hover, :active, :focus {
@@ -133,28 +133,69 @@ body {
   background-color: transparent !important;
 }
 
+.navbar-default .navbar-brand {
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.navbar-default {
+  padding: 10px 0;
+  border: 0;
+  /*background-color: transparent;*/
+  -webkit-transition: padding .3s;
+  transition: padding .3s;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 1.5em;
+}
+
+.navbar-default.navbar-shrink {
+  padding: 0;
+  /*background-color: #222;*/
+}
+
+.navbar-default.navbar-shrink .navbar-brand {
+  font-size: 1.2em;
+}
+
 /*
 ** header
 */
 .header {
-  background: url("http://lorempixel.com/g/1920/500/") no-repeat center center scroll;
-  padding: 100px 0;
+  background: url("../img/banner.png") no-repeat center center scroll;
+  padding: 200px 0 150px;
   text-align: center;
   background-size: cover;
+}
+.header_logo {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  width: 400px;
+}
+.header .navbar-brand {
+  width: 151px;
+  height: 50px;
+  text-indent: -9999999px;
+  display: inline-block;
+  background: url(../img/logo.png) no-repeat transparent;
+  background-size: 151px;
+  background-position: center;
 }
 
 /*
 ** section-2
 */
 .section-2 {
-  padding: 25px 0 0;
+  padding: 75px 0 0;
 }
 .section-2_title {
   height: 50px;
   line-height: 50px;
   font-size: 28px;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 75px;
 }
 .section-2_item {
   margin-bottom: 40px;
@@ -171,6 +212,10 @@ body {
   margin: 0 10px 10px 0;
   float: left;
 }
+.section-2_item__img img {
+  width: 188px;
+  height: 188px;
+}
 .section-2_item__img._right {
   float: right;
   margin: 0 0 10px 10px;
@@ -178,6 +223,11 @@ body {
 .section-2_item__text {
   font-size: 14px;
   line-height: 18px;
+  height: 188px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
 
 /*
@@ -185,7 +235,7 @@ body {
 */
 .section-3 {
   background: #EAEAEA;
-  padding: 25px 0 0;
+  padding: 75px 0 0;
 }
 .section-3_item {
   margin-bottom: 40px;
@@ -204,17 +254,13 @@ body {
 ** section-4
 */
 .section-4 {
-  padding: 25px 0 0;
+  padding: 75px 0 0;
+  min-height: 800px;
 }
 .section-4_item {
   background: #EAEAEA;
   padding: 10px 15px;
   margin-bottom: 40px;
-}
-.section-4_item__img {
-  width: 100%;
-  text-align: center;
-  margin: 0 auto 10px;
 }
 .section-4_item__text {
   font-size: 14px;
@@ -225,8 +271,9 @@ body {
 ** section-5
 */
 .section-5 {
+  min-height: 1000px;
   background: #EAEAEA;
-  padding: 25px 0 50px;
+  padding: 75px 0 50px;
 }
 .section-5_item {
   padding: 5px 5px 0;
@@ -242,7 +289,7 @@ body {
   display: inline-block;
 }
 .section-5_form {
-  margin-top: 25px;
+  margin-top: 75px;
   border: 2px solid #000;
   border-radius: 5px;
   padding: 30px 10px 10px;

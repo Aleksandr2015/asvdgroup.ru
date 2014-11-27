@@ -3,8 +3,9 @@
 */
 
 .section-5 {
+    min-height: 1000px;
     background: #EAEAEA;
-    padding: 25px 0 50px;    
+    padding: 75px 0 50px;    
     &_item {
         //background: #ccc;
         padding: 5px 5px 0;
@@ -20,7 +21,7 @@
         }
     }
     &_form {
-        margin-top: 25px;
+        margin-top: 75px;
         border:2px solid #000;
         border-radius: 5px;
         padding: 30px 10px 10px;

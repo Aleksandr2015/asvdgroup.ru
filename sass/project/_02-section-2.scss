@@ -3,16 +3,16 @@
 */
 
 .section-2 {
-    padding: 25px 0 0;
+    padding: 75px 0 0;
     &_title {
         height: 50px;
         line-height: 50px;
         font-size: 28px;
         text-align: center;
-        margin-bottom: 25px;
+        margin-bottom: 75px;
     }
     &_item {
-        margin-bottom: 40px;
+        margin-bottom: 40px;        
         &__title {
             font-size: 22px;
             line-height: 22px;
@@ -23,7 +23,12 @@
         }
         &__img {
             margin:0 10px 10px 0;
-            float: left;
+            float: left;            
+        }
+        
+        &__img img {
+            width: 188px;
+            height: 188px;
         }
         &__img._right {
             float: right;
@@ -32,6 +37,11 @@
         &__text {   
             font-size: 14px;
             line-height: 18px;
+            height: 188px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            padding: 10px;
+            border: 1px solid #ccc;
         }
     }
 }
