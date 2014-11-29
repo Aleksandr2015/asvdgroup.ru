@@ -2,18 +2,23 @@
 ** section-2
 */
 
-.section-2 {
-    padding: 75px 0 0;
+.section-2 {    
+    padding: 75px 0 75px;
     &_title {
         height: 50px;
         line-height: 50px;
+        font-family: 'Inconsolata';
         font-size: 28px;
+        font-weight: 800;
         text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
         margin-bottom: 75px;
+        
     }
     &_item {
         margin-bottom: 40px;        
-        &__title {
+        &__title {            
             font-size: 22px;
             line-height: 22px;
             margin-bottom: 10px;

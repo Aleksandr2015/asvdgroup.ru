@@ -3,10 +3,12 @@
 */
 
 .section-5 {
+    background-color: #DB9446;
     min-height: 1000px;
-//    background: #EAEAEA;
     padding: 75px 0 50px;    
     &_item {
+        color: #fff;
+        font-family: 'Inconsolata';
         //background: #ccc;
         padding: 5px 5px 0;
         &__icon {
@@ -22,7 +24,7 @@
     }
     &_form {
         margin-top: 75px;
-        border:2px solid #000;
+        border:2px solid #fff;
         border-radius: 5px;
         padding: 30px 10px 10px;
         .form-group {
@@ -37,3 +39,7 @@
         }
     }
 }
+
+.section-5 .section-2_title {
+        color:  #fff;
+    }
