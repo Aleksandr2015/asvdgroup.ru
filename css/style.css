@@ -200,7 +200,7 @@ body {
 ** header
 */
 .header {
-  background: url("../img/banner.png") no-repeat center center scroll;
+  background: url("../img/banner.jpg") no-repeat center center scroll;
   padding: 200px 0 150px;
   text-align: center;
   background-size: cover;
